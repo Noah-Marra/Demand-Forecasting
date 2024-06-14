@@ -10,3 +10,6 @@ def preprocess(df):
     df.set_index('Date', inplace=True) 
     df.fillna(method='bfill', inplace=True)
     return df
+
+
+#TODO: Need to add in lag variables to the data preprcessing function
